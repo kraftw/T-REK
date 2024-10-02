@@ -1,0 +1,16 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1727833255
+LICENSE.md::TextFile::-1::1727806041::0::1::::<><>::
+README.md::TextFile::-1::1727806041::0::1::::<><>::
+::res://assets/::1727832785
+::res://assets/sprites/::1727833044
+::res://assets/sprites/characters/::1727833243
+spr_ph_char.png::CompressedTexture2D::8363730051205120408::1727832820::1727833255::1::::<><>::
+::res://assets/sprites/environment/::1727833243
+spr_ph_env.png::CompressedTexture2D::6235304531072411619::1727832820::1727833255::1::::<><>::
+::res://scenes/::1727832829
+main.tscn::PackedScene::9137010262403716936::1727832714::0::1::::<><>::
+::res://scenes/characters/::1727807102
+::res://scenes/environment/::1727833237
+ground.tscn::PackedScene::1583210180825886481::1727833237::0::1::::<><>::
+::res://scripts/::1727805847
