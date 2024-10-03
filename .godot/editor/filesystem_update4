@@ -1,4 +1,3 @@
-res://scenes/environment/ground.tscn
-res://scenes/main.tscn
 res://scenes/characters/player.tscn
+res://scenes/main.tscn
 res://scripts/player.gd
