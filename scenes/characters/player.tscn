@@ -242,24 +242,25 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_s71hm"]
-size = Vector2(45, 117)
+size = Vector2(120, 312)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_cyytv"]
-size = Vector2(45, 90)
+size = Vector2(120, 240)
 
 [node name="Player" type="CharacterBody2D"]
+z_index = 1
 script = ExtResource("1_fau8c")
 
 [node name="PlayerSprite" type="AnimatedSprite2D" parent="."]
-scale = Vector2(9, 9)
+position = Vector2(-8.58307e-06, 2.09808e-05)
+scale = Vector2(24, 24)
 sprite_frames = SubResource("SpriteFrames_y6koi")
-animation = &"duck"
-frame_progress = 0.9027
+animation = &"run"
 
 [node name="RunCol" type="CollisionShape2D" parent="."]
-position = Vector2(13.5, 4.5)
+position = Vector2(36, 12)
 shape = SubResource("RectangleShape2D_s71hm")
 
 [node name="DuckCol" type="CollisionShape2D" parent="."]
-position = Vector2(13.5, 18)
+position = Vector2(36, 48)
 shape = SubResource("RectangleShape2D_cyytv")

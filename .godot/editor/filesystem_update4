@@ -1,3 +1,5 @@
-res://scenes/characters/player.tscn
 res://scenes/main.tscn
+res://scenes/environment/ground.tscn
+res://scenes/characters/player.tscn
+res://scripts/main.gd
 res://scripts/player.gd
