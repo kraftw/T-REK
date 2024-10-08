@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://c7s2n3scfc776"]
+
+[ext_resource type="Texture2D" uid="uid://deogybh7oowao" path="res://assets/sprites/obstacles/spr_ph_obs.png" id="1_xbrkc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0nrra"]
+size = Vector2(336, 336)
+
+[node name="SquareGroundObstacle" type="Area2D"]
+
+[node name="SquareObsSprite" type="Sprite2D" parent="."]
+position = Vector2(-7.62939e-06, -7.62939e-06)
+scale = Vector2(3.5, 3.5)
+texture = ExtResource("1_xbrkc")
+
+[node name="SquareObsCol" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_0nrra")

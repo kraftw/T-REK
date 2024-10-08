@@ -1,5 +1,8 @@
 res://scenes/main.tscn
-res://scenes/environment/ground.tscn
-res://scenes/characters/player.tscn
 res://scripts/main.gd
+res://scenes/characters/player.tscn
+res://scenes/environment/ground.tscn
+res://scenes/ui/hud.tscn
 res://scripts/player.gd
+res://scenes/obstacles/sqaure_ground_obstacle.tscn
+res://scenes/obstacles/square_ground_obstacle.tscn

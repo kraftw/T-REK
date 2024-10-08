@@ -255,7 +255,8 @@ script = ExtResource("1_fau8c")
 position = Vector2(-8.58307e-06, 2.09808e-05)
 scale = Vector2(24, 24)
 sprite_frames = SubResource("SpriteFrames_y6koi")
-animation = &"run"
+animation = &"idle"
+frame_progress = 0.146178
 
 [node name="RunCol" type="CollisionShape2D" parent="."]
 position = Vector2(36, 12)
